@@ -11,7 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import de.jonashoehn.carrental.databinding.FragmentRentBinding
 
-abstract class RentFragment : Fragment() {
+class RentFragment : Fragment() {
 
     private lateinit var homeViewModel: RentViewModel
     private var _binding: FragmentRentBinding? = null
