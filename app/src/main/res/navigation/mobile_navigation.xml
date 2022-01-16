@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_rent">
+
+    <fragment
+        android:id="@+id/navigation_rent"
+        android:name="de.jonashoehn.carrental.ui.rent.RentFragment"
+        android:label="@string/title_rent"
+        tools:layout="@layout/fragment_rent" />
+
+    <fragment
+        android:id="@+id/navigation_return"
+        android:name="de.jonashoehn.carrental.ui.carreturn.ReturnFragment"
+        android:label="@string/title_return"
+        tools:layout="@layout/fragment_return" />
+
+    <fragment
+        android:id="@+id/navigation_addcar"
+        android:name="de.jonashoehn.carrental.ui.addcar.AddcarFragment"
+        android:label="@string/title_addcar"
+        tools:layout="@layout/fragment_addcar" />
+</navigation>
