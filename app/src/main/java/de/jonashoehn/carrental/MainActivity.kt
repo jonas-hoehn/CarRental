@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun createVehicle(){
 
-        val autoBmw = Vehicle("111", "BMW", "1er Cabrio", 768854, "Mtk Jp 144", 4, "Grau", 3)
+        val autoBmw = Vehicle("111", "Audi", "etron", 768854, "Mtk Jp 144", 4, "Grau", 3)
         //val lkwEins = LKW("111", "BMW", "1er Cabrio",4)
 
 
